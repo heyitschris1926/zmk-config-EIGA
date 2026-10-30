@@ -49,15 +49,6 @@
 
     combos { compatible = "zmk,combos"; };
 
-    macros {
-        control_shift: control_shift {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp LEFT_CONTROL>;
-            label = "CONTROL_SHIFT";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -84,10 +75,10 @@
         Sym {
             display-name = "Sym";
             bindings = <
-           &trans           &trans       &trans    &trans      &trans         &trans     &trans         &trans        &trans     &trans
-           &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp LCTRL  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp EQUAL
-&kp GRAVE  &trans           &trans       &trans    &trans      &trans         &trans     &trans         &trans        &trans     &trans     &kp SLASH
-                                         &trans    &trans      &trans         &trans     &trans         &trans
+           &trans           &trans       &trans    &trans         &trans         &trans     &trans         &trans        &trans     &trans
+           &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR     &kp PERCENT    &kp LCTRL  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp EQUAL
+&kp GRAVE  &trans           &trans       &trans    &trans         &trans         &trans     &trans         &trans        &trans     &trans     &kp SLASH
+                                         &trans    &kp LS(LG(S))  &trans         &trans     &trans         &trans
             >;
         };
 
