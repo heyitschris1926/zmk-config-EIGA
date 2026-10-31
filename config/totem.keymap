@@ -65,10 +65,10 @@
         Nav {
             display-name = "Nav";
             bindings = <
-           &kp LC(C)  &kp PAGE_UP  &kp BACKSPACE  &kp PAGE_DOWN  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_1       &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_0
-           &kp LC(V)  &kp LEFT     &kp UP_ARROW   &kp RIGHT      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_4       &kp NUMBER_5     &kp NUMBER_6  &kp PLUS
-&kp LC(Z)  &kp LC(X)  &kp LC(A)    &kp DOWN       &kp ENTER      &kp EQUAL               &kp PERIOD             &kp NUMBER_7       &kp N8           &kp N9        &kp MINUS     &kp SLASH
-                                   &trans         &trans         &trans                  &kp LC(LEFT_SHIFT)     &kp RIGHT_CONTROL  &kp RIGHT_SHIFT
+           &kp LC(C)  &kp PAGE_UP  &kp BACKSPACE  &kp PAGE_DOWN  &kp LEFT_BRACKET        &kp RIGHT_BRACKET               &kp NUMBER_1       &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_0
+           &kp LC(V)  &kp LEFT     &kp UP_ARROW   &kp RIGHT      &kp LEFT_PARENTHESIS    &hm LEFT_WIN RIGHT_PARENTHESIS  &kp NUMBER_4       &kp NUMBER_5     &kp NUMBER_6  &kp PLUS
+&kp LC(Z)  &kp LC(X)  &kp LC(A)    &kp DOWN       &kp ENTER      &kp EQUAL               &kp PERIOD                      &kp NUMBER_7       &kp N8           &kp N9        &kp MINUS     &kp SLASH
+                                   &trans         &trans         &trans                  &kp LC(LEFT_SHIFT)              &kp RIGHT_CONTROL  &kp RIGHT_SHIFT
             >;
         };
 
